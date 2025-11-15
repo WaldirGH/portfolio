@@ -1,0 +1,48 @@
+/* src/styles.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background-image: url(/img/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 18px;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px 40px;
+}
+.section-card {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 25px 30px;
+  border-radius: 18px;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: #f2f2f2;
+  font-size: 1.1rem;
+}
+.section-card h2,
+.section-card h3,
+.section-card h4 {
+  font-size: 1.4rem;
+}
+.section-card p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 35px;
+  margin-top: 20px;
+}
+
+/* angular:styles/global:styles */
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/header/header.css"],
+  "sourcesContent": ["/* HEADER */\nheader {\n    padding: 15px 30px;\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 70px;\n    background: rgba(0,0,0,0); /* transparente elegante */\n    backdrop-filter: blur(8px);\n    z-index: 1000;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n/* NAV */\nnav {\n    display: flex;\n    justify-content: center;\n    flex-wrap: wrap;\n    gap: 15px;\n}\n\n/* LINKS */\nnav a {\n    color: #f0f0f0;\n    text-decoration: none;\n    padding: 8px 16px;\n    font-weight: 500;\n    font-size: 2rem;\n    border-radius: 8px;\n    transition: all 0.3s ease;\n    letter-spacing: 0.5px;\n}\n\nnav a:hover {\n    background: rgb(28, 228, 151);\n    color: #111;\n    box-shadow: 0px 4px 12px rgba(28, 228, 151, 0.5);\n    transform: translateY(-2px); /* sutil levantado */\n}\n\n"],
+  "mappings": ";AACA;AACI,WAAS,KAAK;AACd,YAAU;AACV,OAAK;AACL,QAAM;AACN,SAAO;AACP,UAAQ;AACR,cAAY,KAAK,CAAC,EAAC,CAAC,EAAC,CAAC,EAAC;AACvB,2BAAiB,KAAK;AAAtB,mBAAiB,KAAK;AACtB,WAAS;AACT,WAAS;AACT,eAAa;AACb,mBAAiB;AACrB;AAGA;AACI,WAAS;AACT,mBAAiB;AACjB,aAAW;AACX,OAAK;AACT;AAGA,IAAI;AACA,SAAO;AACP,mBAAiB;AACjB,WAAS,IAAI;AACb,eAAa;AACb,aAAW;AACX,iBAAe;AACf,cAAY,IAAI,KAAK;AACrB,kBAAgB;AACpB;AAEA,IAAI,CAAC;AACD,cAAY,IAAI,EAAE,EAAE,GAAG,EAAE;AACzB,SAAO;AACP,cAAY,IAAI,IAAI,KAAK,KAAK,EAAE,EAAE,GAAG,EAAE,GAAG,EAAE;AAC5C,aAAW,WAAW;AAC1B;",
+  "names": []
+}

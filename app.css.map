@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.css"],
+  "sourcesContent": ["main {\n    padding-top: 80px;\n}"],
+  "mappings": ";AAAA;AACI,eAAa;AACjB;",
+  "names": []
+}
